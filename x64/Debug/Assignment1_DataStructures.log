@@ -1,4 +1,8 @@
 ﻿  main.c
   queue.c
   Generating Code...
+C:\Users\angel\source\repos\Assignment1_DataStructures\Assignment1_DataStructures\queue.c(8,1): warning C4716: 'isEmpty': must return a value
+C:\Users\angel\source\repos\Assignment1_DataStructures\Assignment1_DataStructures\queue.c(14,1): warning C4716: 'dequeue': must return a value
+C:\Users\angel\source\repos\Assignment1_DataStructures\Assignment1_DataStructures\queue.c(17,1): warning C4716: 'createPlayer': must return a value
+C:\Users\angel\source\repos\Assignment1_DataStructures\Assignment1_DataStructures\queue.c(23,1): warning C4716: 'getFactionName': must return a value
   Assignment1_DataStructures.vcxproj -> C:\Users\angel\source\repos\Assignment1_DataStructures\x64\Debug\Assignment1_DataStructures.exe
