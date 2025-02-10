@@ -42,5 +42,6 @@ Player dequeue(Queue* q);
 Player createPlayer();
 void fillQueue(Queue* q, int numPlayers);
 const char* getFactionName(Faction faction);
+void getRandomPlayerName(char* playername);
 
 #endif // QUEUE_H
