@@ -4,7 +4,7 @@
 int main(int argc, char* argv[]) {
 	//check arguments
 	if (argc != 2) {
-		printf("%s <number of players>\n", argv[0]);
+		printf("Incorrect number of players");
 		return 1;
 	}
 	int numPlayers = atoi(argv[1]);
