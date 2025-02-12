@@ -23,7 +23,6 @@ void enqueue(Queue* q, Player player) {
 		q->tail->next = newNode;
 		q->tail = newNode; 
 	}
-	q->tail = newNode;
 }
 Player dequeue(Queue* q) {
 	if (isEmpty(q)) {
@@ -33,7 +32,6 @@ Player dequeue(Queue* q) {
 		emptyPlayer.faction = RED;
 		return emptyPlayer;
 	}
-
 	QueueNode* temp = q->head;
 	Player player = temp->player;
 	q->head = q->head->next;
